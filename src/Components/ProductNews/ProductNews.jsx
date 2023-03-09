@@ -11,7 +11,9 @@ const ProductNews = () => {
     
   return (
     <>
-    <h1 className="text-center"> Explore Our Stories </h1>
+
+    <h1 className="text-center m-5"> Explore Our Stories </h1>
+    <div className="wrapper">
     <div className="badges ">
      <Badge bg="dark" onClick={handleClick} >
         All Stories
@@ -25,6 +27,7 @@ const ProductNews = () => {
       <Badge bg="dark" onClick={handleClick}>
         Customer Services
       </Badge>{' '}
+      </div>
       </div>
     </>
     

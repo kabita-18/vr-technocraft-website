@@ -5,6 +5,8 @@ import ProductNews from './Components/ProductNews/ProductNews';
 import Products from './Components/Products/Products';
 import Testimonial from './Components/Testimonials/Testimonial';
 import Footer from './Components/Footer/Footer';
+import Clients from './Components/Clients/Clients';
+
 
 function App() {
   return (
@@ -15,7 +17,9 @@ function App() {
       <ProductImage/>
       <ProductNews/>
       <Products/>
+      
       <Testimonial/>
+      <Clients/>
       <Footer/>
     </div>
   );
