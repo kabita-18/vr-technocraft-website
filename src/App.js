@@ -6,18 +6,36 @@ import Products from "./Components/Products/Products";
 import Testimonial from "./Components/Testimonials/Testimonial";
 import Footer from "./Components/Footer/Footer";
 import Clients from "./Components/Clients/Clients";
-
-function App() {
+import Privacy from "./Components/Privacy&Policy/Privacy";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import TermsandConditions from "./Components/Terms&conditions/TermsandConditions";
+function Home() {
   return (
-    <div className="App">
-      <Header />
+    <>
       <ProductImage />
       <ProductNews />
       <Products />
 
       <Testimonial />
       <Clients />
-      <Footer />
+    </>
+  );
+}
+function App() {
+  return (
+    <div className="App">
+      <Router>
+      <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/privacy" element={<Privacy />} />
+          <Route
+            path="/terms-and-conditions"
+            element={<TermsandConditions />}
+          />
+        </Routes>
+        <Footer />
+      </Router>
     </div>
   );
 }

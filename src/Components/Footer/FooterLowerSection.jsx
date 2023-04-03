@@ -13,6 +13,7 @@ import {
   Telephone,
   Building,
 } from "react-bootstrap-icons";
+import { Link } from "react-router-dom";
 
 const FooterLowerSection = () => {
   return (
@@ -41,14 +42,14 @@ const FooterLowerSection = () => {
                   </a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">
+                  <Link to="/privacy" className="text-reset">
                     Privacy & Policy
-                  </a>
+                  </Link>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">
+                  <Link to="/terms-and-conditions" className="text-reset">
                     Terms & Conditions
-                  </a>
+                  </Link>
                 </p>
                 <p>
                   <a href="#!" className="text-reset">
@@ -56,6 +57,7 @@ const FooterLowerSection = () => {
                   </a>
                 </p>
               </Col>
+              
 
               <Col md="3" lg="2" xl="2" className="mx-auto mb-4">
                 <h6 className="text-uppercase fw-bold mb-4">Business</h6>

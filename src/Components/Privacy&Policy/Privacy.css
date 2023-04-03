@@ -1,0 +1,52 @@
+.site-frame {
+  text-align: left;
+  padding:0 10%;
+}
+.site-section.narrow{
+    max-width: 1200px;
+}
+.site-section.page-intro{
+    padding-top:22px;
+}
+.site-section.page-intro p{
+
+text-align: justify;
+}
+
+.page-intro h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+dd, dt, ol, p, ul {
+    font-size: 1.145rem;
+    margin-bottom: 1.3rem;
+    margin-top: 0.5rem;
+}
+abbr, address, article, aside, audio, b, blockquote, body, canvas, caption, cite, code, dd, del, details, dfn, div, dl, dt, em, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, p, pre, q, samp, section, small, span, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+
+
+
+.page-intro h2 {
+    font-size: 1.414rem;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 22px;
+    text-transform: none;
+    line-height: normal;
+    letter-spacing: -.033rem;
+}
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+

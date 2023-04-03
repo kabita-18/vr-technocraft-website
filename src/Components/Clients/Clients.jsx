@@ -18,7 +18,7 @@ import "./Clients.css"
 const Clients = () => {
   return (
     <div>
-      <h1 id="client">Clients</h1>
+      <h1 className='text-center' id="client"> Our Clients</h1>
       <Carousel
         additionalTransfrom={0}
         arrows
